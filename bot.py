@@ -167,7 +167,7 @@ class UNLPamComputacionChatbot:
     # =====================
     def _definir_plan(self):
         plan = {
-            "Pimer, 1, 1er": {
+            "1": {
                 "1er cuatrimestre": ["Práctica Educativa I", "Introducción a la Computación"],
                 "2do cuatrimestre": ["Psicología", "Pedagogía"],
                 "anual": ["Matemática"]
@@ -176,7 +176,7 @@ class UNLPamComputacionChatbot:
                 "1er cuatrimestre": ["Programación I", "Matemática Discreta", "Informática Educativa I"],
                 "2do cuatrimestre": ["Práctica Educativa II", "Didáctica", "Programación II", "Probabilidad y Estadística"]
             },
-            "Tercer, 3, 3er": {
+            "3": {
                 "1er cuatrimestre": ["Práctica Educativa III", "Informática Educativa II", "Estructuras de Datos y Algoritmos", "Antropología y Sociología"],
                 "2do cuatrimestre": ["Política y Legislación Escolar", "Lenguajes de Programación", "Organización de Computadoras I"]
             },
