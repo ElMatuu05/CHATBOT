@@ -9,6 +9,17 @@ st.set_page_config(page_title="ChatBot matHIAs", page_icon="💻", layout="wide"
 st.markdown(
     """
     <style>
+    
+    /* Ocultar la barra superior de Streamlit */
+    header[data-testid="stHeader"] {
+        display: none;
+    }
+
+    /* Ocultar el menú superior derecho (los tres puntitos) */
+    [data-testid="stToolbar"] {
+        display: none;
+    }
+
     /* Fondo general */
     body {
         background-color: #f5f9ff;
