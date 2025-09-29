@@ -1,0 +1,12 @@
+streamlit
+pandas
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+faiss-cpu
+pypdf
+unstructured
+pdf2image
+pytesseract
+Pillow
