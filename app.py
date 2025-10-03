@@ -111,7 +111,7 @@ if "past_conversations" not in st.session_state:
 st.markdown(
     """
     <div class="header">
-        <img src="https://exactas.unlpam.edu.ar/templates/yootheme/cache/facultad-ciencias-exactas-naturales-logo-6b65c7ac.png" 
+        <img src="https://www.unlpam.edu.ar/images/identidad/UNLPam-_exactas.jpg" 
              alt="Logo Exactas UNLPam" width="55">
         <h2>💻 ChatBot mathIA's</h2>
     </div>
@@ -170,7 +170,7 @@ for role, text in st.session_state.messages:
 # Primer mensaje automático
 # =========================
 if not st.session_state.messages:
-    bienvenida = "¡Hola 👋! Soy **ChatBot matHIAs** del Profesorado en Computación de la UNLPam. Preguntame lo que quieras sobre la carrera 🤓."
+    bienvenida = "¡Hola 👋! Soy **ChatBot mathIAs** del Profesorado en Computación de la UNLPam. Preguntame lo que quieras sobre la carrera 🤓."
     st.session_state.messages.append(("assistant", bienvenida))
     with st.chat_message("assistant"):
         st.markdown(bienvenida)
